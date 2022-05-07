@@ -1,0 +1,38 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+   background-image: url('../../../angular/src/assets/photo-1533134486753-c833f0ed4866.jpeg');
+    background-size:cover;
+    position:relative;
+  }
+  /* text css above hero image*/
+  .hero_title {
+    font-size: 4.5rem;
+  }
+  .hero_desc {
+    font-size: 2rem;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:century,Gothic;
+  }
+
+  .nav-link{
+      color: white;
+  }
+
+  .navbar-brand{
+    color: white;
+   
+  }
+
+  /* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+  
