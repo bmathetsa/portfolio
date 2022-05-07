@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-   background-image: url('../../../angular/src/assets/photo-1533134486753-c833f0ed4866.jpeg');
+   background-image: url('../../../angular/src/assets/photo-1470790376778-a9fbc86d70e2.jpeg');
     background-size:cover;
     position:relative;
   }
@@ -18,21 +18,45 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(0, 0, 0);
     font-family:century,Gothic;
   }
 
   .nav-link{
-      color: white;
+      color: rgb(0, 0, 0);
   }
 
   .navbar-brand{
-    color: white;
+    color: rgb(0, 0, 0);
    
   }
+
+  /* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
 
   /* about section image css */
 .imageAboutPage {
     width: 100%;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: black;
 }
   
